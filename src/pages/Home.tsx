@@ -22,8 +22,9 @@ export function Home() {
 
 
                         <div className="text-center">
-                            <a className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 dark:focus:ring-offset-gray-800"
-                               href="#">
+                            <button
+                                className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 dark:focus:ring-offset-gray-800"
+                            >
                                 Contact Me
                                 <svg className="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24"
                                      height="24"
@@ -31,7 +32,7 @@ export function Home() {
                                      stroke-linecap="round" stroke-linejoin="round">
                                     <path d="m9 18 6-6-6-6"/>
                                 </svg>
-                            </a>
+                            </button>
                         </div>
 
                     </div>
@@ -51,9 +52,9 @@ export function Home() {
 
                     </div>
                     <div className="lg:col-span-4 mt-10 lg:mt-0">
-                        <img className="w-full rounded-xl"
+                        <img alt="" className="w-full rounded-xl"
                              src="https://images.unsplash.com/photo-1665686376173-ada7a0031a85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=700&q=80"
-                             alt="Image Description"/>
+                        />
                     </div>
 
                 </div>

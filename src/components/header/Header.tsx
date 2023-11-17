@@ -31,7 +31,7 @@ export function Header() {
                  aria-label="Global">
                 <div className="flex items-center justify-between">
                     <NavLink className="inline-flex items-center gap-x-2 text-xl font-semibold dark:text-white" to="/">
-                        <img className="w-10 h-auto" src="./ceresaLogo.png"/>
+                        <img alt="logo" className="w-10 h-auto" src="./ceresaLogo.png"/>
                         <p className="text-white whitespace-nowrap h-auto">
                             Ceresa Jones
                         </p>
